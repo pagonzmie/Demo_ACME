@@ -3,6 +3,7 @@
 
 terraform {
 
+/* Cloud Block no neccesary for VCS run type
   cloud {
     organization = "ACMEDemo_Pablo"
 
@@ -12,6 +13,7 @@ terraform {
     }
   }
 
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
